@@ -3,7 +3,13 @@
 An imageProvider that can cache images to local storage
 
 ## Getting Started
- Image(image: InternetImage("url"),),
+
+#example
+
+ Image(image: CacheImage("url"),),
+ 
+ 
+ 
 
 This project is a starting point for a Dart
 [package](https://flutter.dev/developing-packages/),
